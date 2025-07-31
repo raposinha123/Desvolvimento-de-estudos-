@@ -1,0 +1,102 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+/* Estilos das seções */
+section {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.bio-section,
+.projects-section,
+.contact-section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: #5a5a5a;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+/* Estilos para as perguntas e respostas */
+.bio-section p,
+.projects-section p,
+.contact-section p {
+    margin-bottom: 0.5rem;
+}
+
+.answer {
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+/* Estilos dos links sociais */
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .bio-section,
+    .projects-section,
+    .contact-section {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+}
