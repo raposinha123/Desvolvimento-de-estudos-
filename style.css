@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e70f86;
+    color: #d42bbea4;
     line-height: 1.6;
 }
 
@@ -16,8 +16,8 @@ body {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #dd56b0;
+    color: #a821a2;
     text-align: center;
     padding: 4rem 0;
 }
@@ -41,8 +41,8 @@ section {
 .bio-section,
 .projects-section,
 .contact-section {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f009f0;
+    box-shadow: 0 0 10px rgba(235, 16, 187, 0.932);
     border-radius: 8px;
     padding: 2rem;
     margin: 2rem auto;
@@ -50,8 +50,8 @@ section {
 }
 
 h2 {
-    color: #5a5a5a;
-    border-bottom: 2px solid #ddd;
+    color: #d408a8;
+    border-bottom: 2px solid #ce1a98c0;
     padding-bottom: 0.5rem;
     margin-top: 0;
 }
@@ -65,7 +65,7 @@ h2 {
 
 .answer {
     background-color: #f9f9f9;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #ff00b3;
     padding: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
@@ -74,7 +74,7 @@ h2 {
 
 /* Estilos dos links sociais */
 .social-links a {
-    color: #007bff;
+    color: #ff00c8e8;
     text-decoration: none;
     font-weight: bold;
 }
