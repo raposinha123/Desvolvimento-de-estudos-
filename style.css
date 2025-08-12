@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e70f86;
+    background-color: #f8f7f8;
     color: #d42bbea4;
     line-height: 1.6;
 }
@@ -16,7 +16,7 @@ body {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #dd56b0;
+    background-color: #f8f8f8;
     color: #a821a2;
     text-align: center;
     padding: 4rem 0;
